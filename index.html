@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Le numéro exact</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Noto+Serif+SC" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+<body>
+
+    <h1 id="titre">Le numero est comprix entre 0 et <span id="prixMax" >?</span></h1>
+
+    <div class="container">
+
+            <button class="btn" id="nouvellePartie">Nouvelle Partie</button>
+            <button class="btn" id="lancerPartieF">Petit numéro (0 - 100)</button>
+            <button class="btn" id="lancerPartieM">Numéro moyen (0 - 700)</button>
+            <button class="btn" id="lancerPartieD">Gros numéro (0 - 7000)</button>
+
+        <form name="recherche" id="formulaire">
+            <h2 class="font-Fam"><span id="chrono">30</span> secondes</h2>
+            <div id="texte">Le numéro est de: </div>
+            <br>
+                <input id="valeurTapée" type="number">
+                <div id="btnValider"><button type="submit" class="btn" id="nombreTapé" >Valider</button></div>
+            
+        </form>
+
+    <div id="image">
+        <img id="imgHaut" src="./assets/img/Plus.png" alt="">
+        <img id="imgBas" src="./assets/img/Moins.png" alt="">
+        <img id="imgBravo" src="./assets/img/Bravo.gif" alt="">
+        <img id="imgGO" src="./assets/img/GameOver.png" alt="">
+    </div>
+
+    </div>
+
+    <script src="./assets/dep/jquery.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+body {
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+    color: rgb(20, 20, 20)
+}
+
+/* Retire les flèches de l'input numéro */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* Retire l'affichage des éléments au démarrage */
+#nouvellePartie, #formulaire, #imgHaut, #imgBas, #imgBravo, #imgGO {
+    display: none;
+}
+
+
+/* font-family: 'Ranga', cursive; */
+.font-Fam {
+    font-family: 'Noto Serif SC', serif;
+
+}
+
+#titre {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#btnValider {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#texte {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#valeurTapée {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    max-width: 50px;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    background-color: #538fbe;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: 1px solid #2d6898;
+    border-radius: 5px;
+    background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(73,132,180)),
+        color-stop(1, rgb(97,155,203))
+    );
+    margin: 10px;
+  }
+  
+.btn:hover {
+    background-image: linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(79,142,191)),
+        color-stop(1, rgb(102,166,214))
+    );
+  }
+
+#chrono {
+    font-size: 40px;
+    color: rgb(10, 10, 10)
+}
+
+#imgBravo {
+    margin-top: 10%;
+    border-radius: 2%;
+}
